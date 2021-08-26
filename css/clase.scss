@@ -1,0 +1,37 @@
+.wraper {
+  width: 960px;
+  margin: auto;
+}
+
+.alert {
+  font-size: 20px;
+  width: 100%;
+  padding: 20px 10px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 15px 0;
+
+  &.secundary {
+    background-color: #e2e3e5;
+    color: #41464b;
+  }
+  
+  &.danger {
+    background-color: #d1e7dd;
+    color: #0f5132;
+  }
+
+  &.success {
+    background-color: #f8d7da;
+    color: #842029;
+  }
+
+  &.primary {
+    background-color: #cfe2ff;
+    color: #084298;
+  }
+}
+
+
+
+

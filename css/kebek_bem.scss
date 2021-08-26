@@ -1,0 +1,38 @@
+.search{
+    border: 1px solid grey;
+    padding: 20px;
+    display:  inline-block;
+
+    &.search-bg-red{
+        background: red;
+    }
+
+    .search-button{
+        background: blue;
+        color: #fff;
+    }
+}
+
+.search{
+    border: 1px solid grey;
+    padding: 20px;
+    display: inline-block;
+
+    &--bg-red{
+        background: red;
+
+        & .search__input{
+            background: red;
+        }
+    }
+
+    &__input{
+        border: 1px solid grey;
+        padding: 20px;
+    }
+
+    &__button{
+        background: blue;
+        color: #fff;
+    }
+}
